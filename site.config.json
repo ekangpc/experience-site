@@ -1,0 +1,13 @@
+{
+  "title": "Field Notes",
+  "tagline": "Things I learned the hard way, written down so you don't have to.",
+  "description": "Practical lessons from real experience — what worked, what didn't, and what I'd do differently. Each note is tagged and summarized so people and AI assistants can find the right one.",
+  "author": {
+    "name": "Your Name",
+    "url": "",
+    "bio": "Replace this with a sentence or two about who you are and what you have experience in. It helps readers and AI assistants judge why your advice is worth trusting."
+  },
+  "url": "https://example.github.io/experience-site",
+  "language": "en",
+  "license": "CC BY 4.0"
+}
