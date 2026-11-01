@@ -36,7 +36,14 @@ const isoDate = (d) => d.toISOString().slice(0, 10);
 const niceDate = (d) => d.toLocaleDateString(site.language || "en", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 const minutes = (p) => Math.max(1, Math.round(p.words / 220));
 const jsonLd = (obj) => `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, "\\u003c")}</script>`;
-const plainSummary = (p) => p.ai.summary || p.data.description || p.body.replace(/[#*_>`\[\]()-]/g, "").trim().slice(0, 180);
+const plainSummary = (p) => p.ai.summary || p.data.description || firstParagraph(p.body);
+
+/** Fallback summary before AI tagging: the first real paragraph, cut at a word boundary. */
+function firstParagraph(body) {
+  const para = body.split(/\n\s*\n/).map((s) => s.trim()).find((s) => s && !/^(#|```|[-*>|]|!\[)/.test(s)) || "";
+  const text = para.replace(/!?\[([^\]]*)\]\([^)]*\)/g, "$1").replace(/[*_`]/g, "").replace(/\s+/g, " ");
+  return text.length <= 200 ? text : text.slice(0, 200).replace(/\s+\S*$/, "") + "…";
+}
 const lastModified = (p) => p.updated || p.date;
 
 function write(file, content) {
