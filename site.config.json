@@ -1,16 +1,15 @@
 {
   "title": "Eric Kang · Field Notes",
   "tagline": "Lessons learned firsthand: from engineering to leadership, building with AI, and the timeless wisdom of Eastern philosophy.",
-  "description": "Practical notes from a career that went from electrical engineer at Motorola to Chief Knowledge Officer: moving from engineering into leadership, building AI-enabled services and agentic workflows, and what Eastern philosophy teaches about learning, growth, decision-making and living well.",
+  "description": "Practical notes on three things I have learned by doing: moving from engineering into leadership, building AI-enabled services and agentic workflows, and applying lessons from Eastern philosophy to learning, growth, decision-making and living well.",
   "author": {
     "name": "Eric Kang",
     "url": "",
-    "jobTitle": "Chief Knowledge Officer",
-    "organization": "Lifewood Data Technology",
-    "bio": "Electrical engineer turned knowledge and AI strategy leader, working across Hong Kong, Malaysia and mainland China. Writes about moving into leadership, building AI-enabled services and agentic workflows, and lessons from Eastern philosophy.",
+    "jobTitle": "Knowledge management and AI strategy leader",
+    "bio": "Trained as an electrical engineer and started out leading a design team at Motorola. Now works on knowledge management, business development and AI strategy across Hong Kong, Malaysia and mainland China.",
     "about": [
-      "I am Chief Knowledge Officer at Lifewood Data Technology, where I lead knowledge management, corporate affairs and business development, and help shape our AI strategy across Hong Kong, Malaysia and mainland China.",
-      "I trained as an electrical engineer (BSEE, Southern Illinois University; MBA, HKUST) and started my career as a design team leader at Motorola. Since then I have worked across business development, quality, data production and operations at Lifewood.",
+      "I lead knowledge management, corporate affairs and business development at a data technology company, and help shape its AI strategy across Hong Kong, Malaysia and mainland China.",
+      "I trained as an electrical engineer (BSEE, Southern Illinois University; MBA, HKUST) and started my career as a design team leader at Motorola. Since then I have worked across business development, quality, data production and operations.",
       "Here I write about what I have learned firsthand, from moving out of engineering into leadership to building AI-enabled services and agentic workflows. I also write about Eastern philosophy and the timeless lessons it offers anyone on learning, growth, decision-making and living well."
     ],
     "education": [
