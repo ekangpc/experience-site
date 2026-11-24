@@ -1,11 +1,33 @@
 {
-  "title": "Field Notes",
-  "tagline": "Things I learned the hard way, written down so you don't have to.",
-  "description": "Practical lessons from real experience — what worked, what didn't, and what I'd do differently. Each note is tagged and summarized so people and AI assistants can find the right one.",
+  "title": "Eric Kang · Field Notes",
+  "tagline": "Lessons learned firsthand: from engineering to leadership, building with AI, and the timeless wisdom of Eastern philosophy.",
+  "description": "Practical notes from a career that went from electrical engineer at Motorola to Chief Knowledge Officer: moving from engineering into leadership, building AI-enabled services and agentic workflows, and what Eastern philosophy teaches about learning, growth, decision-making and living well.",
   "author": {
-    "name": "Your Name",
+    "name": "Eric Kang",
     "url": "",
-    "bio": "Replace this with a sentence or two about who you are and what you have experience in. It helps readers and AI assistants judge why your advice is worth trusting."
+    "jobTitle": "Chief Knowledge Officer",
+    "organization": "Lifewood Data Technology",
+    "bio": "Electrical engineer turned knowledge and AI strategy leader, working across Hong Kong, Malaysia and mainland China. Writes about moving into leadership, building AI-enabled services and agentic workflows, and lessons from Eastern philosophy.",
+    "about": [
+      "I am Chief Knowledge Officer at Lifewood Data Technology, where I lead knowledge management, corporate affairs and business development, and help shape our AI strategy across Hong Kong, Malaysia and mainland China.",
+      "I trained as an electrical engineer (BSEE, Southern Illinois University; MBA, HKUST) and started my career as a design team leader at Motorola. Since then I have worked across business development, quality, data production and operations at Lifewood.",
+      "Here I write about what I have learned firsthand, from moving out of engineering into leadership to building AI-enabled services and agentic workflows. I also write about Eastern philosophy and the timeless lessons it offers anyone on learning, growth, decision-making and living well."
+    ],
+    "education": [
+      "Southern Illinois University",
+      "The Hong Kong University of Science and Technology"
+    ],
+    "knowsAbout": [
+      "Knowledge management",
+      "AI strategy",
+      "Agentic workflows",
+      "AI-enabled services",
+      "Engineering leadership",
+      "Business development",
+      "Quality management",
+      "Data operations",
+      "Eastern philosophy"
+    ]
   },
   "url": "https://ekangpc.github.io/experience-site",
   "language": "en",

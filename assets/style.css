@@ -98,3 +98,7 @@ main.wrap { padding-top: 40px; padding-bottom: 64px; }
 .site-footer { border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: .88rem; color: var(--muted); }
 .site-footer p { margin: 4px 0; }
 .site-footer a { color: var(--muted); }
+
+.author-box { margin-top: 44px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); }
+.author-box p { margin: 2px 0; }
+.about + .prose p:first-child { margin-top: 0; }
